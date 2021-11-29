@@ -1,0 +1,56 @@
+
+*{ padding: 0px; margin: 0px; box-sizing: border-box;}
+ul,li{ list-style: none; padding: 0px; margin: 0px;}
+.clr:after{ content: ''; display: block; clear: both;}
+.text-center{text-align: center;}
+.pb-100{ padding-bottom: 100px!important;} 
+
+
+.main {/*width: 100%; max-width: 800px; margin: auto;*/ background-color: #001C29;}
+.main .banner {background-size: cover; text-align: center;background: url(../imgs/kolectPageBannerBg.png)no-repeat top center; display: flex; align-items: center; justify-content: center; height: 500px;}
+.main .banner img{max-width: 200px; max-height: 200px; display: block; margin: auto;}
+.main .holder-container{padding: 0px 15px;}
+.main .holder-container .holder-row{margin: 0px -15px; width: 100%; }
+.main .holder-container .holder-row .holder-col{ padding: 0px 15px; float: left; width: 33%;}
+.main .holder-container.logos{padding-bottom: 50px;}
+.main .holder-container.logos .holder-col{width: 25%; padding-bottom: 50px;}
+.main .holder-container.logos .holder-col .txt{color: #fff;}
+.main .holder-container.logos .holder-col .txt{  padding-left: 5px; letter-spacing: -.15px; width: calc(100% - 50px); float: left; display: flex; align-items: center; justify-content: flex-start; height: 50px;}
+.main .holder-container.logos .holder-col .txt h5{ font-size: 16px; color: #fff; margin: 0px;}
+.main .holder-container.logos .holder-col .img-holder{ width: 50px; float: left; } 
+.main .holder-container.logos .holder-col .img-holder img{max-width: 100%; }
+.main .holder-container .holder-col h1{font-size: 20px; margin-bottom: 8px;}
+.main .content {padding: 100px 0px 150px;}
+.main .content .section-title{font-size: 36px; color: #fff;}
+.main .content .section-txt{width: 100%; max-width: 900px; display: block; margin: auto auto 0px; font-size: 18px; color: #fff;}
+.main .holder-container.page-content .holder-col{width: 50%;}
+.main .holder-container.page-content .holder-col .icon{width: 100px;float: left; display: flex; align-items: center; justify-content: center;
+height: 100px;}
+.main .holder-container.page-content .holder-col .txt{ width: calc(100% - 100px); padding-bottom: 50px; padding-left: 15px; float: left;}
+.main .txt{color: #fff;}
+.main .holder-container.link .holder-col a{color: #fff;}
+
+
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 320px){ 
+    .main .holder-container.logos .holder-col .img-holder{width: 25px;}
+    .main .holder-container.logos .holder-col .txt  {width: calc(100% - 25px); height: 27px; }
+    .main .holder-container.logos .holder-col .txt h5 {font-size: 10px;}
+    .main .holder-container.link .holder-row .holder-col{width: 100%;}
+    .main .holder-container.link .holder-row .holder-col h5{font-size: 16px;}
+    .main .content .section-title h1{font-size: 28px;}
+    .main .content .section-title p{font-size: 14px; }
+    .main .holder-container.page-content .holder-col{width: 100%;}
+    .main .holder-container.page-content .holder-col .txt{width: 100%; text-align: center;}
+    .main .content .section-txt{max-width: 384px; width: 100%;}
+    .main .holder-container.page-content .holder-col .icon{width: 100%; text-align: center;}
+
+
+
+
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+
+}
